@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/navigation_authStartFragment">
+
+    <fragment
+        android:id="@+id/navigation_authStartFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.AuthStartFragment"
+        android:label="auth_fragment_start"
+        tools:layout="@layout/auth_fragment_start" >
+        <action
+            android:id="@+id/action_navigation_authStartFragment_to_navigation_loginFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:destination="@id/navigation_loginFragment" />
+        <action
+            android:id="@+id/action_navigation_authStartFragment_to_navigation_registerFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:destination="@id/navigation_registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_registerFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.RegisterFragment"
+        android:label="auth_fragment_register"
+        tools:layout="@layout/auth_fragment_register" >
+        <action
+            android:id="@+id/action_navigation_registerFragment_to_navigation_termsFragment"
+            app:destination="@id/navigation_termsFragment" />
+        <action
+            android:id="@+id/action_navigation_registerFragment_to_navigation_policyFragment"
+            app:destination="@id/navigation_policyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_loginFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.LoginFragment"
+        android:label="auth_fragment_login"
+        tools:layout="@layout/auth_fragment_login" >
+        <action
+            android:id="@+id/action_navigation_loginFragment_to_navigation_forgotPasswordFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:destination="@id/navigation_forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_forgotPasswordFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.ForgotPasswordFragment"
+        android:label="auth_fragment_forgotpw"
+        tools:layout="@layout/auth_fragment_forgotpw" >
+        <action
+            android:id="@+id/action_navigation_forgotPasswordFragment_to_navigation_emailSentFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:destination="@id/navigation_emailSentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_emailSentFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.EmailSentFragment"
+        android:label="auth_fragment_email_sent"
+        tools:layout="@layout/auth_fragment_email_sent" >
+        <action
+            android:id="@+id/action_navigation_emailSentFragment_to_navigation_loginFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:destination="@id/navigation_loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_policyFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.PolicyFragment"
+        android:label="auth_fragment_privacy_policy"
+        tools:layout="@layout/auth_fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/navigation_termsFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.TermsFragment"
+        android:label="auth_fragment_terms"
+        tools:layout="@layout/auth_fragment_terms" />
+</navigation>

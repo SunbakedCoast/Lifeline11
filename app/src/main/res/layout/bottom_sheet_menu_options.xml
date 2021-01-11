@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/bottom_sheet_menu_options_btn_markasopen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/btn_mark_as_open"
+        app:drawableStartCompat="@drawable/ic_open_24px"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/bottom_sheet_menu_options_btn_markasclosed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/btn_mark_as_closed"
+        app:drawableStartCompat="@drawable/ic_check_circle_24px"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/bottom_sheet_menu_options_btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/btn_edit"
+        app:drawableStartCompat="@drawable/ic_create_24px"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/bottom_sheet_menu_options_btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/btn_delete"
+        app:drawableStartCompat="@drawable/ic_delete_24px"
+        />
+
+
+
+
+
+</LinearLayout>

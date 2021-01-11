@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "619638536976",
+    "firebase_url": "https://lifelinebeta.firebaseio.com",
+    "project_id": "lifelinebeta",
+    "storage_bucket": "lifelinebeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619638536976:android:712711d8311a3c66758395",
+        "android_client_info": {
+          "package_name": "com.nolabs.lifeline11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619638536976-mgnmc841vtpg5lbfahduv3e2ddnla9t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3aTYa99H3nEi_9FxIBebAfCp_PorZIYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619638536976-mgnmc841vtpg5lbfahduv3e2ddnla9t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

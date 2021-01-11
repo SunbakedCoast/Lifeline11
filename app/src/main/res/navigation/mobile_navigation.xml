@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.nolabs.lifeline11.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/main_fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_requestIssueFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:destination="@id/navigation_requestIssueFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_lifeline"
+        android:name="com.nolabs.lifeline11.ui.lifeline.LifelineFragment"
+        android:label="@string/title_lifeline"
+        tools:layout="@layout/main_fragment_lifeline" >
+        <action
+            android:id="@+id/action_navigation_lifeline_to_navigation_aboutUsFragment"
+            app:destination="@id/navigation_aboutUsFragment"
+            app:enterAnim="@anim/fragment_fade_enter"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.nolabs.lifeline11.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/main_fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.nolabs.lifeline11.ui.profile.ProfileFragment"
+        android:label="main_fragment_profile"
+        tools:layout="@layout/main_fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_profileSettings"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:destination="@id/navigation_profileSettings" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_requestIssueFragment"
+        android:name="com.nolabs.lifeline11.ui.request.RequestIssueFragment"
+        android:label="main_fragment_request"
+        tools:layout="@layout/main_fragment_request" >
+        <action
+            android:id="@+id/action_navigation_requestIssueFragment_to_navigation_home"
+            app:enterAnim="@anim/fragment_close_enter"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_postFragment"
+        android:name="com.nolabs.lifeline11.ui.home.PostFragment"
+        android:label="main_fragment_selected_item"
+        tools:layout="@layout/main_fragment_selected_item" >
+        <action
+            android:id="@+id/action_navigation_postFragment_to_navigation_donationS1Fragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:destination="@id/navigation_donationS1Fragment" />
+        <action
+            android:id="@+id/action_navigation_postFragment_to_navigation_optionsBottomSheetFragment"
+            app:destination="@id/navigation_optionsBottomSheetFragment" />
+        <action
+            android:id="@+id/action_navigation_postFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <action android:id="@+id/action_global_postFragment"
+        app:enterAnim="@anim/fragment_open_enter"
+    app:destination="@id/navigation_postFragment"/>
+    <fragment
+        android:id="@+id/navigation_donationS1Fragment"
+        android:name="com.nolabs.lifeline11.ui.home.DonationS1Fragment"
+        android:label="main_fragment_donation_step_1"
+        tools:layout="@layout/main_fragment_donation_step_1" >
+        <action
+            android:id="@+id/action_navigation_donationS1Fragment_to_navigation_donationsS2Fragment"
+            app:enterAnim="@anim/fragment_close_enter"
+            app:destination="@id/navigation_donationsS2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_donationsS2Fragment"
+        android:name="com.nolabs.lifeline11.ui.home.DonationsS2Fragment"
+        android:label="main_fragment_donation_step_2"
+        tools:layout="@layout/main_fragment_donation_step_2" >
+        <action
+            android:id="@+id/action_navigation_donationsS2Fragment_to_navigation_home"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profileSettings"
+        android:name="com.nolabs.lifeline11.ui.profile.ProfileSettings"
+        android:label="main_fragment_profile_settings"
+        tools:layout="@layout/main_fragment_profile_settings" >
+        <action
+            android:id="@+id/action_navigation_profileSettings_to_navigation_securityFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:destination="@id/navigation_securityFragment" />
+        <action
+            android:id="@+id/action_navigation_profileSettings_to_navigation_termsFragment"
+            app:destination="@id/navigation_termsFragment" />
+        <action
+            android:id="@+id/action_navigation_profileSettings_to_navigation_helpCenterFragment"
+            app:destination="@id/navigation_helpCenterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_securityFragment"
+        android:name="com.nolabs.lifeline11.ui.profile.SecurityFragment"
+        android:label="main_fragment_security"
+        tools:layout="@layout/main_fragment_security" >
+        <action
+            android:id="@+id/action_navigation_securityFragment_to_navigation_profileSettings"
+            app:enterAnim="@anim/fragment_open_exit"
+            app:destination="@id/navigation_profileSettings" />
+    </fragment>
+    <dialog
+        android:id="@+id/navigation_optionsBottomSheetFragment"
+        android:name="com.nolabs.lifeline11.ui.home.OptionsBottomSheetFragment"
+        android:label="bottom_sheet_menu_options"
+        tools:layout="@layout/bottom_sheet_menu_options" >
+        <action
+            android:id="@+id/action_navigation_optionsBottomSheetFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_optionsBottomSheetFragment_to_navigation_editPostFragment"
+            app:destination="@id/navigation_editPostFragment" />
+        <action
+            android:id="@+id/action_navigation_optionsBottomSheetFragment_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </dialog>
+    <fragment
+        android:id="@+id/navigation_aboutUsFragment"
+        android:name="com.nolabs.lifeline11.ui.lifeline.AboutUsFragment"
+        android:label="main_fragment_about_us"
+        tools:layout="@layout/main_fragment_about_us" />
+    <fragment
+        android:id="@+id/navigation_recipients"
+        android:name="com.nolabs.lifeline11.ui.People"
+        android:label="main_fragment_people"
+        tools:layout="@layout/main_fragment_people" />
+    <fragment
+        android:id="@+id/navigation_editPostFragment"
+        android:name="com.nolabs.lifeline11.ui.home.EditPostFragment"
+        android:label="main_fragment_edit_post"
+        tools:layout="@layout/main_fragment_edit_post" >
+        <action
+            android:id="@+id/action_navigation_editPostFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_termsFragment"
+        android:name="com.nolabs.lifeline11.ui.authACT.TermsFragment"
+        android:label="auth_fragment_terms"
+        tools:layout="@layout/auth_fragment_terms" />
+    <fragment
+        android:id="@+id/navigation_helpCenterFragment"
+        android:name="com.nolabs.lifeline11.ui.profile.HelpCenterFragment"
+        android:label="main_fragment_help"
+        tools:layout="@layout/main_fragment_help" />
+</navigation>

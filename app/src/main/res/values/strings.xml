@@ -1,0 +1,323 @@
+<resources>
+    <string name="app_name">Lifeline</string>
+    <string name="title_recipients">People</string>
+    <string name="title_home">Home</string>
+    <string name="title_lifeline">Lifeline</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_forgotpw">Forgot your password?</string>
+    <string name="title_email_sent">Please check your Email</string>
+    <string name="title_updatepw">Change password</string>
+    <string name="title_about">About Us</string>
+    <string name="title_funds">How our services are funded?</string>
+    <string name="title_feed">Feed</string>
+
+
+
+    <!--Content descriptions -->
+    <string name="contentdesc_facebook">Facebook</string>
+    <string name="contentdesc_twitter">Twitter</string>
+    <string name="contentdesc_lifeline">Lifeline</string>
+
+    <!--Hint Strings -->
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password 6+ characters</string>
+    <string name="hint_password_2">Password</string>
+    <string name="hint_add_bio">Tap here to add bio</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_subject">What do you want to resolve?</string>
+    <string name="hint_address">Donation Address</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_specify">Food, Medicine, Clothes etc.</string>
+    <string name="hint_currentpw">Current password</string>
+    <string name="hint_newpw">New Password 6+ characters</string>
+    <string name="hint_needs">Needs</string>
+    <string name="hint_quantity">How many do you need?</string>
+
+
+    <!--Spinner Strings -->
+    <string-array name="spinner_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spinner_status">
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+
+    <string-array name="spinner_city">
+        <item>Batangas</item>
+        <item>Caloocan</item>
+        <item>Laguna</item>
+        <item>Las Piñas</item>
+        <item>Makati</item>
+        <item>Malabon</item>
+        <item>Mandaluyong</item>
+        <item>Manila</item>
+        <item>Marikina</item>
+        <item>Muntinlupa</item>
+        <item>Navotas</item>
+        <item>Pampanga</item>
+        <item>Parañaque</item>
+        <item>Pasay</item>
+        <item>Pasig</item>
+        <item>Pateros</item>
+        <item>Quezon City</item>
+        <item>Rizal</item>
+        <item>San Juan</item>
+        <item>Taguig</item>
+        <item>Valenzuela</item>
+    </string-array>
+
+
+    <!--StaticTexts Strings -->
+    <string name="text_terms_x_conditions">I agree to Terms and Privacy Policy</string>
+    <string name="text_reset">Enter your email here</string>
+
+
+    <!--btn Strings -->
+    <string name="text_btn_terms_x_conditions">Terms</string>
+    <string name="btn_policy">Privacy Policy</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_fab_request">Request an issue</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_log_out">Log out</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_see_gallery">See gallery</string>
+    <string name="btn_contribute">Contribute</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_add_photo">Add/Edit Profile Picture</string>
+    <string name="btn_manage_posts">Manage Posts</string>
+    <string name="btn_security">Security</string>
+    <string name="btn_help_center">Help center</string>
+    <string name="btn_terms_x_policies">Terms of Use</string>
+    <string name="btn_report_problem">Contact Us</string>
+    <string name="btn_mark_as_closed">Mark as Closed</string>
+    <string name="btn_mark_as_open">Mark as Open</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete Post</string>
+    <string name="btn_about_us">Find out more about us</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_update">Update</string>
+
+    <!--Heading Strings -->
+    <string name="title_register">Register</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_profile_picture">Profile picture</string>
+    <string name="title_arts">We thank all artists that supported Lifeline through their artworks</string>
+    <string name="title_beta">BETA</string>
+    <string name="title_donation_details">Donation details</string>
+    <string name="title_atwork">Under Development</string>
+    <string name="title_campaign">Campaign:</string>
+
+
+    <string name="body_beta">We are stil in BETA phase which means everything you see on the app is not final and still under development. More updates will be implemented soon, if you have any concerns contact us through Facebook or Email.</string>
+    <string name="body_thanks">Please send the donations to the Donation Address below You will be notified via email when the donations has been sent to recipients, Thank you so much for your donation! </string>
+    <string name="body_atwork">This tab is under development, This feed will be for the people in need we will give them direct access to this platform soon.</string>
+    <string name="body_dev_message">Due to lockdown extension and increasing number of cases of COVID-19. We decided to release the BETA version. Everything you see
+    on the app is not final and all minor and major features will be added in the future. While it is functional, the development phase is still ongoing And we are open
+    to any suggestions or request for features. To send a message just tap the Profile tab then go to Settings and tap Contact us \n\n All updates will be posted on Official Lifeline Facebook account.</string>
+    <string name="body_dev">-Developer</string>
+    <string name="body_dev_title">Lifeline Developer</string>
+
+    <!--InformationContainer strings-->
+    <string name="info_donated">Donated</string>
+    <string name="info_completed">Completed</string>
+    <string name="info_heading_about_me">About me</string>
+    <string name="info_body_about_me">Tap here to tell us more about yourself</string>
+    <string name="info_heading_bio">Bio</string>
+    <string name="info_heading_request_issue">What do you want to resolve?</string>
+    <string name="info_donation_category">Please specify your donation</string>
+    <string name="info_steps">Step 1 of 2</string>
+    <string name="info_steps2">Step 2 of 2</string>
+    <string name="info_account">Account</string>
+    <string name="info_help_x_support">Help and support</string>
+    <string name="info_posts">Posts</string>
+    <string name="info_status">Status:</string>
+    <string name="info_needs">Needs:</string>
+    <string name="info_updatepw">You can change your password here.</string>
+    <string name="info_notification">donated</string>
+    <string name="info_notification_extension">Your</string>
+    <string name="info_lifeline">Lifeline:</string>
+    <string name="info_max">has reached its maximum donations</string>
+    <string name="info_donation_address">Donation Address:</string>
+    <string name="info_location">Donations will be sent to:</string>
+
+
+
+    <string name="about_us_lifeline"> Lifeline is designed to support the community. We build Technologies and services to provide and enable donors to
+    contribute with each other and to community. Our platform provides services with social and interactive features for contributing and collaborating with other
+    donors. Lifeline is a non-profit organization whose mission is to unite people and give the unprivileged a Hope. It uses its own platform to unite all
+    donors where they can contribute and solve issues collectively. We combined data and technology in order to give an easy, fast and reliable donation process.
+    The Lifeline services are offered as a platform to allow an individual, entity or non-profit organization to post an issue or campaign they want to resolve</string>
+
+    <string name="about_us_funds">Donors may choose to donate cash to the organization to keep the platform and its operations running. These donations allows us to advance our mission and help
+    even more people. We give a ribbon or we call it "Mark of Solidarity" to the donors who supported or supporting the Lifeline financially this is our way of thanking the
+    donors and saying we are incredibly grateful for choosing lifeline as a platform to help people.</string>
+
+    <string name="privacy_policy"></string>
+
+
+    <string name="terms_condition"></string>
+
+
+    <string name="legal_privacy_policy_title">Privacy Policy</string>
+    <string name="legal_privacy_policy_body">This Privacy Policy sets our commitment to protecting the privacy of personal informations provided to us, or otherwise
+    collected by us, offline or online, including through our app. In this Privacy Policy we, us our means Lifeline</string>
+
+    <string name="legal_privacy_policy_personalinfo_title">Personal Information</string>
+    <string name="legal_privacy_policy_personalinfo_body">The types of Personal Information we may collect about you includes</string>
+    <string name="legal_privacy_policy_item_name">Your name</string>
+    <string name="legal_privacy_policy_item_contact">Your contact details including your Email Address and Donation Address</string>
+    <string name="legal_privacy_policy_item_thirdparty">Your Log Data in a case of an error in the App we collect data and information(through third-party products)
+    on your phone called Log Data. This Log Data may include information such as your device Internet Protocol(IP) Address, device name, Operating System version, the
+    configuration of the App when utilizing our service, the time and date of your use of the service, and other statistics.</string>
+    <string name="legal_privacy_policy_item_other">Any other Personal Information requested by us and/or provided by you or third party</string>
+
+    <string name="legal_privacy_policy_collectionanduse">Collection and use of Personal Information</string>
+    <string name="legal_privacy_policy_collectionanduse_body">We may collect, hold, use and disclose personal information for the following purposes:</string>
+    <string name="legal_privacy_policy_item_communicate">To contact and communicate with you.</string>
+    <string name="legal_privacy_policy_item_legalobligations">To comply with our legal obligations and resolve any disputes that we may have.</string>
+
+    <string name="legal_privacy_policy_rights_title">Your rights and controlling your Personal Information</string>
+    <string name="legal_privacy_policy_rights_consentbody">Consent: Please read this Privacy Policy Carefully. By providing Personal Information ot us, you
+    consent to us collecting, holding, using and disclosing your personal information in accordance with this Privacy Policy.</string>
+    <string name="legal_privacy_policy_rights_thirdparty">Information from third parties: If we receive Personal Information about you from a third-party, we will protect it as set out in this
+    Privacy Policy if you are a third-party providing Personal Information about somebody else, you represent and warrant that you have such persons consent
+    to provide the Personal Information to us</string>
+    <string name="legal_privacy_policy_rights_complaints">Complaints: if you wish to make a complaint about how we have handled your Personal Information.
+    please contact us using the details below and provide us with full details of the complaint. We will promptly investigate your complaint and respond to you,
+    in writing, setting out the outcome of our investigation and the steps we will take to deal with your complaint.</string>
+
+    <string name="legal_privacy_policy_storage_title">Storage and Security</string>
+    <string name="legal_privacy_policy_storage_body">We are committed to ensuring that the Personal Information we collect is SECURE. In order to prevent
+    unauthorized access or disclosure, we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the personal information
+    and protect it from misuse, interference, loss and unauthorized access, modification and disclosure \n We cannot guarantee the security of any information
+    that is transmitted to or by us over the internet. The transmission and exchange of information is carried out at your own risk. Although we take measures
+    to safeguard against unauthorized disclosures of information, we cannot assure you that the personal information we collect wil not be disclosed in a manner
+    that is inconsistent with this Privacy Policy</string>
+
+    <string name="legal_privacy_policy_amendments_title">Amendments</string>
+    <string name="legal_privacy_policy_amendments_body">We may, at any time and at our discretion, vary this privacy policy by publishing the amended Privacy Policy
+    on our App. We recommend you to check your Email regularly to ensure you are aware of our current Privacy Policy.</string>
+
+    <string name="legal_privacy_policy_questions_title">For any question or notices, Please contact us at:</string>
+    <string name="legal_privacy_policy_questions_email">LifelineUnityxx@gmail.com</string>
+
+
+
+
+
+    <string name="legal_privacy_policy_terms_title">Terms of Use</string>
+    <string name="legal_privacy_policy_terms_p1">Lifeline builds technologies and services to provide and enable donors to contribute with each other and
+    to community. This platform is provided to you by Lifeline </string>
+    <string name="legal_privacy_policy_terms_p2">Consent: By accessing and/or using our App, you agree to these Terms of Use(Terms). Please read these Terms
+    carefully and immediately cease using our app if you do not agree to them.</string>
+
+    <string name="legal_privacy_policy_variations_title">Variations</string>
+    <string name="legal_privacy_policy_variations_body">We may make changes to the Agreements for valid reasons, such as improving the existing functions or features
+    or adding new functions or features to the Service. When we make material changes to the Agreements, we will  provide you with notice by displaying a prominent
+    notice or seeking your agreement within the Service or by sending you an email. We will notify you in advance and your continued use of the service after
+    the changes have been made will constitute your acceptance of the changes. If you do not wish to continue using the Service under the new versoin of agreements,
+    you may terminate your account by contacting us.</string>
+
+    <string name="legal_privacy_policy_licensetouse_title">License to use our App</string>
+    <string name="legal_privacy_policy_licensetouse_p1">We grant you a non-exclusive, royalty-free, revocable, worldwide, non-transferable license to use our
+    site in accordance with these Terms. All other uses are prohibited without our prior written consent.</string>
+
+    <string name="legal_privacy_policy_licensetouse_p2">Prohibited Conduct: You must not do or attempt to do anything that is unlawful; prohibited by any laws
+    applicable to our App; which we would consider inappropriate; or which might bring us or our App into dispute, including(without limitation):</string>
+    <string name="legal_privacy_policy_item1">Anything that would constitute a breach of an individuals privacy(including uploading private or personal information
+        without and individuals consent) or any other legal rights</string>
+    <string name="legal_privacy_policy_item2">Using our App to defame, harass, threaten, menace or offend any person.</string>
+    <string name="legal_privacy_policy_item3">Interfering with any user using our App</string>
+    <string name="legal_privacy_policy_item4">Tampering with or modifying our App, knowingly transmitting viruses or other disabling features, or damaging
+    or interfering with out App, including(without limitation) using Trojan Horses, viruses or piracy or programming routines that may damage of interfere with our App.</string>
+    <string name="legal_privacy_policy_item5">Using our App to send unsolicited email messages</string>
+    <string name="legal_privacy_policy_item6">Facilitating or assisting a third party to do any above acts.</string>
+
+    <string name="legal_privacy_policy_intellectualproperty">Intellectual Property Rights: Unless otherwise indicated, we own our license all rights, title, and interest
+    (including intellectual property rights) in our App and all of the content. Your use of our App and your use of and access to any content does not grant of transfer to you
+    any rights, title or interest in relation to our App or the content. You must not:</string>
+
+    <string name="legal_privacy_policy_item7">Copy or use, in whole or in part, any Content</string>
+    <string name="legal_privacy_policy_item8">Reproduce, retransmit, distribute, disseminate, sell, publish, broadcast or circulate any Content to any third party</string>
+    <string name="legal_privacy_policy_item9">Breach any intellectual property rights connected with our App or the Content, including(without limitation) altering or modifying
+    any of the Content, causing any of the Content to be framed or embedded in another website or platform, or creating derivative works from the Content.</string>
+
+    <string name="legal_terms_usercontent">User Content: You may be permitted to post, upload, publish, submit or transmit relevant information and content(User content) on our App
+    By making available any User Content on or through our App, You grant to us a worldwide, irrevocable, perpetual, non-exclusive, transferable, royalty-free license to use the User Content,
+    with the right to use, view, copy, adapt, modify, distribute, license, transfer, communicate, publicly display, publicly perform, transmit, stream, broadcast, access, or otherwise
+    exploit such User Content on, through by means of our App. \n \n You agree that you are solely responsible for all User Content that you make available on or through our
+    App. You represent and warrant that:</string>
+
+    <string name="legal_terms_item1">You are either the sole and exclusive owner of all User Content of you have all rights, licenses, consents and releases that are necessary to grant to us the rights
+    in such User Content(as contemplated by these Terms)</string>
+    <string name="legal_terms_item2">Neither the User Content nor the posting, uploading, publication, submission or transmission of the User Content or our use of the User Content on, through or by means
+    of our App will infringe, misappropriate or violate a third parties intellectual property rights, or rights of publicity or privacy, or result in the violation of any applicable law or regulation</string>
+
+
+    <string name="legal_privacy_policy_usercontent">We do not endorse or approve, and are not responsible for, any User Content. We may, at any time(at our sole discretion),
+    remove any User Content</string>
+    <string name="legal_privacy_policy_usercontent_item1">Third Party sites: Our app may contain links to websites operated by third parties. Unless expressly
+    stated otherwise, we do not control ,endorse or approve, and are not responsible for, the content on those websites. You should make your own investigations with respect to
+    the suitability of those websites.</string>
+    <string name="legal_privacy_policy_usercontent_item2">Discontinuance: We may, at any time and without notice to you, discontinue our App, in whole or in part.
+    We may exclude any person from using our App, at any time and at our sole discretion. WE are not responsible for any liability you may suffer arising from or in connection
+    with any such discontinuance or exclusion.</string>
+    <string name="legal_privacy_policy_usercontent_item3">Limitation of Liability: To the maximum extent permitted by law, we are not responsible for any loss,
+    damage or expense, howsoever arising, whether direct or indirect and/or whether present, unascertained, future or contingent(Liability) suffered by you or any
+    third party, arising from or in connection with your use of our Site and/or the Content and/or any inaccessibility of, interruption to or outage of our Site
+    and/or any loss or corruption of data and/or the fact that the Content is incorrect, incomplete or out-of-date.</string>
+    <string name="legal_privacy_policy_usercontent_item4">Disputes: In the event of any disputes arising from, or in connection with, these Terms(Dispute), the
+    party claiming there is a Dispute must give written notice to the other party setting our the details of the dispute and proposing resolution. Within 7 days
+    after receiving the notice, the parties must, by their senior executives or senior managers(who have the authority to reach a resolution on behalf of the party),
+    meet at least once to attempt to resolve the dispute or agree on the method of resolving the dispute by other means, in good faith. All aspects of every such
+    conference, except the fact of the occurrence of the conference, will be privileged. If the parties do not resolve the Dispute, or (if the Dispute is not resolved)
+    agree on an alternate method to resolve the Dispute, within 21 days after receipt of the notice, The Dispute may be referred by either party(by notice in writing to the
+        other party) to litigation.</string>
+    <string name="legal_privacy_policy_usercontent_item5">Jurisdiction: Your use of our App and these Terms are governed by the laws of Philippines. You
+    irrevocably and unconditionally submit to the exclusive jurisdiction of the courts operating in Philippines and any courts entitled to hear
+    appeals from those courts and waive any right to object to proceedings being brought in those courts. \n \n Our app may be accessed throughout Philippines and overseas.
+    We make no representation that our App complies with the laws(including Intellectual Property Laws) of any country outside Philippines. If you access our App from
+    outside Philippines, you do so at your own risk and are responsible for complying with the laws of the jurisdiction where you access our App.</string>
+
+
+    <string name="help_status_title">What does Open and Closed status mean?</string>
+    <string name="help_status_body">When the status is marked as Open, The campaign organizer or post author means he/she is still open for donations.
+    When it is closed there will be no more donations to be received any further.</string>
+
+    <string name="help_campaign_limits_title">Campaign Limits</string>
+    <string name="help_campaign_limits_body">User can only post 3 issues or campaign when this limit has been reached a User will be restricted to post more campaign or issues.</string>
+
+    <string name="help_campaign_contribute_title">Why the contribute button is not showing?</string>
+    <string name="help_campaign_contribute_body">There are two reasons why the contribute button is not showing up. One, If the target quantity has been reached the post will automatically close
+    itself which means donors wont be able to donate anymore to the campaign or issue. Two, When the campaign organizer or post author decided to close the post.</string>
+
+    <string name="help_close_post_title">How can I close my post?</string>
+    <string name="help_close_post_body">Go to your Profile and then tap one of the campaign you want to close. you can mark it as open as well in the same way.</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

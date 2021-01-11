@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/card_feed_item_data_container_card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    style="@style/CardView.Lifeline.Feed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/card_feed_item_data_author_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/donor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_data_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="name sample"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/card_feed_item_data_author_img"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_data_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="date sample"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/card_feed_item_data_author_img"
+                app:layout_constraintTop_toBottomOf="@+id/card_feed_item_data_author" />
+
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/card_feed_item_data_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="5dp"
+        style="@style/Heading.Card.Lifeline.Text"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/card_feed_item_data_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Body.Card.Lifeline.Text"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/card_feed_item_data_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_italic"
+            android:text="City"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:drawableStartCompat="@drawable/ic_location_on_24px"
+             />
+
+
+
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_data_donated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/card_feed_item_txt_donated"
+                app:layout_constraintEnd_toStartOf="@+id/card_feed_item_txt_of"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_txt_of"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="of"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/card_feed_item_txt_donated"
+                app:layout_constraintEnd_toEndOf="@+id/card_feed_item_txt_donated"
+                app:layout_constraintStart_toStartOf="@+id/card_feed_item_txt_donated"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_data_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="100"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/card_feed_item_txt_donated"
+                app:layout_constraintStart_toEndOf="@+id/card_feed_item_txt_of"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_txt_donated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Donated"
+                android:textColor="@color/graytext"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_txt_needs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Needs"
+                android:textColor="@color/graytext"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_data_needs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLength="10"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Needs"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_data_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Status"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_feed_item_txt_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Status"
+                android:textColor="@color/graytext"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/card_feed_item_data_status"
+                app:layout_constraintStart_toStartOf="@+id/card_feed_item_data_status" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
